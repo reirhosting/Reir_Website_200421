@@ -1,0 +1,129 @@
+.mediaViewInfo {
+	--web-view-name: Contact;
+	--web-view-id: Contact;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Contact;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Contact {
+	position: absolute;
+	width: 1600px;
+	height: 3235px;
+	background-color: rgba(246,244,243,1);
+	overflow: hidden;
+	--web-view-name: Contact;
+	--web-view-id: Contact;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#REIR {
+	position: absolute;
+	left: 250px;
+	top: 150px;
+	overflow: visible;
+	width: 99px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Index.html;
+	cursor: pointer;
+	text-align: left;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 41px;
+	color: rgba(0,0,0,1);
+	letter-spacing: 1px;
+}
+#Information {
+	position: absolute;
+	left: 1245.014px;
+	top: 182px;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Information.html;
+	cursor: pointer;
+	text-align: right;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Contact_k {
+	position: absolute;
+	left: 1389.659px;
+	top: 182px;
+	overflow: visible;
+	width: 48px;
+	white-space: nowrap;
+	text-align: right;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#Website_Under_Construction {
+	position: absolute;
+	left: 716px;
+	top: 875px;
+	overflow: visible;
+	width: 169px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: rgba(0,0,0,1);
+}
+#__2020_Reir_Studio_LTD {
+	position: absolute;
+	left: 260.375px;
+	top: 3164px;
+	overflow: visible;
+	width: 301px;
+	height: 32px;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
+#REIR_The_Chocolate_Factory_26_ {
+	position: absolute;
+	left: 759px;
+	top: 350px;
+	overflow: visible;
+	width: 399px;
+	height: 300px;
+	text-align: right;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(0,0,0,1);
+}
